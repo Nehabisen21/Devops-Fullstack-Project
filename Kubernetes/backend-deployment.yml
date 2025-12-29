@@ -21,7 +21,7 @@ spec:
 
           envFrom:
             - configMapRef:
-                name: backend-config
+                name: backend-confimap
 
           env:
             - name: DB_PASSWORD
@@ -42,4 +42,5 @@ spec:
   ports:
     - port: 8080
       targetPort: 8080
-  type: ClusterIP
+      nodePort: 30080
+  type: NodePort

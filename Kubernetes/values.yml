@@ -11,7 +11,7 @@ architecture: standalone
 image:
   registry: docker.io
   repository: bitnami/postgresql
-  tag: latest            # ✅ VALID & STABLE TAG
+  tag: latest            # VALID & STABLE TAG
   pullPolicy: IfNotPresent
 
 primary:
