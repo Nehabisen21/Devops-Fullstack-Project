@@ -55,5 +55,6 @@ PostgreSQL is deployed using Helm with:
 - Security scanning ( Trivy And OWASP)
 
   # Architecture
+  Final%20project%20architecture.png
 
 
